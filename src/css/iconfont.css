@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1602317520579'); /* IE9 */
+  src: url('iconfont.eot?t=1602317520579#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPwAAsAAAAACAwAAAOiAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqDdIMmATYCJAMMCwgABCAFhG0HOBvuBsgOJSHBwABgAABgBF9jv31398UQa5BEI92nkxiSSiThlQSJFKlUptPIeAnMf172Z1IIKY1kwJemAk/mcY0kc1pAt7b7x73TxhSbz7Kc5lj8qQswDijQsQaNRQEXSILeMHblRSwn0DTCFm0lPDYVSCmMdoE4YzGKgFRKq9QUhrpQLRlaxCMQV0/39HsAePC/H3/AOaRIKpnRdfUgrBQEfri+14Wa/jfJdVGAN54ZbBQZs4BCbJRa10FhdBakqUjF6jOripDGCvz/j89VxVXzD48kiCojvw0mUSzx4WozSXzq8s+ad3PuKpQ8TwB41ZUDfV31UVlxg7wiXnq5+cj1+I774S13WsqeojIORBFHpNmKKGyFDBojUklSE+zG3hB5zBOXCPcFUcnYYvNK+NjS5HLa2PjKRAHxtlqUlnw9LX2Mcp7YN59Yt5i8bXe512J2R5Oi0psPbCYolxNS/W5v1KTIbY9QW9sDBJE6vgXA3bSFSJRBvWeOjU9OmDuYNIz1451eBk49GxbmPX7FTWkKClr1SnH444rs5ngWDkXCIy3pZsqFuYZ4c1yCWKJkflGcENIJV66rCTGmuWmFU8HGTq7ye4GcPXFHBcdLGqaxZqn0Fn0TvepzAlLsKm+01dP/k3PG/2XBxXkr7T5d1O/U+1MpKMk9vc4DrKVD7XH0HsvSqmzJCFPXQveQS82XQjyVqyl+cnbXoiXU0x2XAX2xNV2R+aky5Xr4n7YqRugqnG2ZzHZuzKoeRVzzjwr91v3sNGR7YgEUAvgnoWzIxo8v55+Q8F/+xvPdV68LFH3/SckW8L7S/wi6/5cLaJcL1CVa8/4cr2VZUQWGLheZa3P1RHZI6r2wIZvL/K9i6PO8v30QiM2hznkQkpphyOpG0QU/CxUtc1BVNw9NMyJGt/TDQKI0MK0dQOixA0mXF8h63EcX/DOoGPINqnoCgqa1UJ2yZTxYMiEYUoQjpXBxNcwqEfBRy4DLBIXJCKOcW4QlBT4lHcHKWAHYyd4xm4hA+Ag2Ro+yCoYzjqMwigl4cDhYDeFyBbAQE7CREtyeieNCbwcHtOxM9iUCHpCxDIMogkOUghWrBmMpIcCHutVxMrnPJ0MwlOMqgtUgKqzpEJgyrPphTuw5tkBHSPmtENdySpkKDM5wOBQMhRHggYUDM4JrRgVgwvJGbIgSOHvMHmEhbw6oEtpWaj+/nPd8a6DJmDdHihxFZVso5CISDBbOLC8GAAAA') format('woff2'),
+  url('iconfont.woff?t=1602317520579') format('woff'),
+  url('iconfont.ttf?t=1602317520579') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1602317520579#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-apple:before {
+  content: "\e61b";
+}
+
+.icon-github:before {
+  content: "\e534";
+}
+

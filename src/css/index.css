@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --scrollbar: 0px;
+}
+body {
+    position: relative;
+    background-color: rgba(92, 156, 234, 0.089);
+    overflow-x: hidden;
+}
+:root{
+    --header-padding: 80px;
+}
+header{
+    height: 50px;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+}
+.header-logo{
+    width: 200px;
+}
+.header-logo-image{
+    float: left;
+    background: url("../img/word-pyramid-logo.jpg");
+    background-size: 100% 100%;
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    border-radius: 25%;
+}
+.header-logo-text{
+    float: right;
+    font-size: 20px;
+    line-height: 50px;
+    user-select: none;
+}
+footer {
+    height: 30px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    line-height: 30px;
+}
+.footer-right {
+    float: right;
+    margin-right: 20px;
+}
+.footer-right a{
+    text-decoration: none;
+}
+main{
+    position: absolute;
+    top: 0;
+    width: 100vw;
+}
+.glide{
+    width: 100%;
+    height: 100%;
+}
+.glide__track{
+    width: 100%;
+    height: 100%;
+}
+.glide__slides{
+    width: 100%;
+    height: 100%;
+}
+.item{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    column-gap: 50px;
+}
+.caption{
+    align-self: center;
+}
+.caption h1{
+    margin-bottom: 50px;
+}
+.caption h2{
+    margin-bottom: 50px;
+    
+}
+.caption a{
+    text-decoration: none;
+    color: black;
+}
+.download-link{
+    height: 50px;
+    width: 130px;
+    border: 2px grey solid;
+    border-radius: 10px;   
+    display: flex;
+    align-content: center;
+}
+.download-link span{
+    font-size: 40px;
+
+}
+.iphone-frame{
+    height: calc(100vh - 150px);
+    width: calc(calc(100vh - 150px) * 0.503);
+    background-image: url("../img/iphone-frame.png");
+    background-size: 100% 100%;
+    position: relative;
+}
+.iphone-frame video{
+    position: absolute;
+    left: 2.5%;
+    top: 2.5%;
+    height: 95%;
+    width: 95%;
+
+    z-index: -2;
+}
+@media(min-width: 700px){
+    .item{
+        grid-template-columns: 1fr 3fr 2fr 1fr; /*fr*/
+        align-content: center;
+    }
+    main{
+        height: 100vh;
+    }
+}
+@media(max-width: 700px) {
+    .item{
+        grid-template-rows: 1fr 6fr 4fr 0fr;
+        justify-items: center;
+    }
+    .caption{
+        grid-area: 3 / 1 / 4 / 2;
+        width: 70%;
+    }
+    .iphone-frame{
+        grid-area: 2 / 1 / 3 / 2;
+    }
+    .glide__arrows{
+        display: none;
+    }
+}
