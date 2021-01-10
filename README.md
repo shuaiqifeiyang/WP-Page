@@ -1,1 +1,1 @@
-The website is on [https://shuaiqifeiyang.tech](https://shuaiqifeiyang.tech)
+The website is on [https://shuaiqifeiyang.tech](https://shuaiqifeiyang.tech/wp)
